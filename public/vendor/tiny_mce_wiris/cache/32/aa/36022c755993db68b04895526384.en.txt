@@ -1,0 +1,1 @@
+{"result":{"text":"cube root of 5"},"status":"ok"}

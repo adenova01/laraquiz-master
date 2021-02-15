@@ -1,0 +1,56 @@
+.paragraph-soal,
+.pertanyaan {
+    overflow-y: auto;
+    padding: 15px;
+    max-height: 300px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.paragraph-soal {
+    background-color: aquamarine;
+}
+
+.pertanyaan {
+    background-color: cyan;
+}
+
+.paragraph-soal p {
+    text-align: justify;
+}
+
+.container-jawaban ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.daftar-soal {
+    display: flex;
+    padding-left: 0px;
+}
+
+.daftar-soal a li {
+    background-color: chartreuse;
+    list-style: none;
+    padding: 15px 20px;
+    margin-right: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.list-jawaban li {
+    cursor: pointer;
+    padding: 0px !important;
+}
+
+.list-jawaban li p {
+    margin-bottom: 0px;
+    padding: 1rem 1rem;
+}
+
+.daftar-soal a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 1em;
+}
